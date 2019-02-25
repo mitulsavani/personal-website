@@ -28,22 +28,18 @@
         </a>
       </div>
     {% endif %}
-    {% if user.url %}
     <div class="{{ metadata_styles }}">
       {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:link-external %}
       <a href="https://twitter.com/mitul_savani" target="_blank" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           Twitter
       </a>
     </div>
-    {% endif %}
-    {% if user.blog %}
     <div class="{{ metadata_styles }}">
       {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:link-external %}
       <a href="https://www.linkedin.com/in/savanimitul/" target="_blank" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           LinkedIn
       </a>
     </div>
-    {% endif %}
     <div class="{{ metadata_styles }}">
       {% octicon file-pdf height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:file-pdf %}
       <a href="https://mitulsavani.github.io/Resume.pdf" target="_blank" {% if site.style == 'dark' %}class="text-white"{% endif %}>

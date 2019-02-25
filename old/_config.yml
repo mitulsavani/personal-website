@@ -1,16 +1,11 @@
 repository: mitulsavani/mitulsavani.github.io
 
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
 
 
 permalink: /:year/:month/:day/:title/
